@@ -20,10 +20,15 @@ Insights into patterns that impact road safety
 ## 2.🎯 Objectives
 
 • Understand dataset structure and accident attributes
+
 • Explore trends across day, time, region, and city
+
 • Analyze the effect of weather, light, and road conditions
+
 • Identify high-risk regions using geospatial mapping
+
 • Discover patterns influencing severity and casualty rates
+
 • Visualize accident density using heatmaps and statistical charts
 
 ## 3.🧰 Tech Stack
@@ -31,29 +36,35 @@ Insights into patterns that impact road safety
 Python Ecosystem
 
 • Pandas – Data preparation & cleaning
+
 • NumPy – Numerical processing
+
 • Matplotlib & Seaborn – EDA & visual insights
+
 • Plotly (Mapbox) – Interactive accident hotspot maps
+
 • Folium – Geospatial visualization (optional)
 
 ## 4.🗂️ Dataset
 
 Custom U.S. Accident Dataset containing key fields:
 
-Column	Description
-Accident_ID	Unique accident identifier
-Date	Accident date
-Time	Accident time
-Day_of_Week	Weekday of incident
-Weather	Weather during accident
-Road_Condition	Dry/Wet/Icy etc.
-Light_Condition	Daylight, Dusk, Night
-Severity	Minor / Major
-Vehicles_Involved	Count of vehicles
-Casualties	Injuries/Fatalities
-Region	U.S. region (West, Midwest, Northeast, etc.)
-City	City of occurrence
-Latitude / Longitude	For mapping hotspots
+| Column             | Description                                      |
+|--------------------|--------------------------------------------------|
+| Accident_ID        | Unique accident identifier                       |
+| Date               | Accident date                                    |
+| Time               | Accident time                                    |
+| Day_of_Week        | Weekday of incident                              |
+| Weather            | Weather during accident                          |
+| Road_Condition     | Dry/Wet/Icy etc.                                 |
+| Light_Condition    | Daylight, Dusk, Night                            |
+| Severity           | Minor / Major                                    |
+| Vehicles_Involved  | Count of vehicles                                |
+| Casualties         | Injuries/Fatalities                              |
+| Region             | U.S. region (West, Midwest, Northeast, etc.)     |
+| City               | City of occurrence                               |
+| Latitude / Longitude | Coordinates for mapping hotspots               |
+
 
 ## 5.📊 Analysis Workflow
 ✅ Data Loading & Cleaning
